@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="calculator">
+
+            <div class="con-screen">
+                <p id="screen"></p>
+            </div>
+
+            <div class="calc-body">
+                <button onclick="opFunction(25)" id="btnC" class="btn btn-op">C</button>
+                <button onclick="opFunction(21)" id="btnD" class="btn btn-op">/</button>
+                <button onclick="opFunction(22)" id="btnM" class="btn btn-op">*</button>
+                <button onclick="opFunction(26)" id="btnE" class="btn btn-op">x</button>
+
+                <button onclick="numberFunction(7)" id="btn7" class="btn btn-num">7</button>
+                <button onclick="numberFunction(8)" id="btn8" class="btn btn-num">8</button>
+                <button onclick="numberFunction(9)" id="btn9" class="btn btn-num">9</button>
+                <button onclick="opFunction(23)" id="btnMI" class="btn btn-op">-</button>
+
+                <button onclick="numberFunction(4)" id="btn4" class="btn btn-num">4</button>
+                <button onclick="numberFunction(5)" id="btn5" class="btn btn-num">5</button>
+                <button onclick="numberFunction(6)" id="btn6" class="btn btn-num">6</button>
+                <button onclick="opFunction(24)" id="btnP" class="btn btn-op">+</button>
+
+                <button onclick="numberFunction(1)" id="btn1" class="btn btn-num">1</button>
+                <button onclick="numberFunction(2)" id="btn2" class="btn btn-num">2</button>
+                <button onclick="numberFunction(3)" id="btn3" class="btn btn-num">3</button>
+                <button onclick="opFunction(27)" id="btnEQ" class="btn btn-equ btn-op">=</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
