@@ -4,19 +4,18 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #212121;
-
-}
-
-
 main {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
+body {
+    background-color: #212121;
+
+}
 
 
 .calculator {
@@ -29,6 +28,22 @@ main {
     background-color: #121212;
     border: 2px solid rgb(23, 23, 23);
 }
+
+.calculator-light {
+    background-color: rgb(48, 71, 131);
+    border: 2px solid rgb(23, 23, 23)s
+}
+.btn-light {
+color: black;
+}
+.scr-light {
+    color: black !important;
+    background-color: rgb(203, 203, 203) !important;
+}
+.body-light {
+    background-color: white;
+}
+
 
 
 .btn {
@@ -73,6 +88,11 @@ main {
     .calculator {
         height: 100vh;
     }
+
+  #btn-menu {
+font-size: 1rem;
+padding: 0.5rem;
+  }
     
 }
 
@@ -85,5 +105,41 @@ main {
   }
 }
 
+button {
+    border: none;
+}
+
+.con-theme {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.con-theme button {
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    padding: 1rem;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 100px;
+}
+
+.con-opt {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#btn-light, #btn-dark {
+    display: none;
+}
+
+#btn-dark {
+    background-color: gray;
+}
+.btn-menu-mob {
+    display: none;
+}
 
 
